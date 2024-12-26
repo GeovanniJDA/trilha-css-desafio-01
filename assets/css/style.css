@@ -39,17 +39,17 @@ section{
   border-bottom: 1px solid rgba(51, 169, 219, 0.3);
 
   h1{
-    font-size: 2.4rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: transparent;
-    background: -webkit-linear-gradient(rgb(31, 103, 134), rgba(20, 114, 183, 1));
-    background-clip: text;
-    -webkit-background-clip: text;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: transparent;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  background-clip: text;
+  -webkit-background-clip: text;
   }
 
   p{
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     margin: 16px 0 24px;
   }
 
@@ -119,8 +119,52 @@ section{
 }
 
 
+#transform-world{
+  width: 100vw;
+  height: 560px;
+  padding: 200px;
+  background-image: url(/assets/images/woman-code.png);
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 1px solid rgba(51, 169, 219, 0.3);
+  border-bottom: 1px solid rgba(51, 169, 219, 0.3);
+
+  p{
+    max-width: 250px;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    text-shadow: 3px 2px #33A8DB;
+  }
+}
 
 
+#professional-challenges{
+  text-align: center;
+  width: 800px;
+
+  img{
+    margin: 32px 0;
+  }
+}
+
+footer{
+  padding: 60px 0;
+  height: 170px;
+  text-align: center;
+  background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+  border-top: 1px solid rgba(51, 169, 219, 0.3);
+
+  img{
+    width: 300px;
+  }
+
+  a{
+    color: #31A8DD;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
 
 
 
